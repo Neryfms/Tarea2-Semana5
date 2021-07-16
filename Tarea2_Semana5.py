@@ -2,7 +2,7 @@ import logging
 from typing import Text
 
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update, message
-from telegram.ext import Updater, CommandHandler, CallbackQueryHandler, CallbackContext, commandhandler, conversationhandler
+from telegram.ext import Updater, CommandHandler, CallbackQueryHandler, CallbackContext
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
